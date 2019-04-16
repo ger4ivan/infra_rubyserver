@@ -7,6 +7,6 @@ su IvanSSHKey
 git clone https://github.com/ger4ivan/infra_rubyserver.git
 cd infra_rubyserver
 chmod +x install_ruby_mongodb.sh
-./install_ruby_mongodb.sh
+./install_ruby_mongodb.sh'
 
 

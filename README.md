@@ -6,8 +6,7 @@ gcloud compute instances create --boot-disk-size=10GB --image=ubuntu-1604-xenial
 su IvanSSHKey
 git clone https://github.com/ger4ivan/infra_rubyserver.git
 cd infra_rubyserver
-chmod +x deploy_ruby_file.sh install_ruby_mongodb.sh
+chmod +x install_ruby_mongodb.sh
 ./install_ruby_mongodb.sh
-./deploy_ruby_file.sh'
 
 

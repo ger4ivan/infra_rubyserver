@@ -14,4 +14,6 @@ apt-get update
 apt-get install -y mongodb-org
 systemctl start mongod
 systemctl enable mongod
-
+git clone https://github.com/Artemmkin/reddit.git
+cd reddit && bundle install
+puma -d
